@@ -29,8 +29,8 @@ API_VN = [
     "https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.txt",
 ]
 
-TIMEOUT = 3
-MAX_WORKERS = 80
+TIMEOUT = 1
+MAX_WORKERS = 110
 
 def normalize_line(line):
     """Chuẩn hóa dòng proxy thành host:port, bỏ socks"""
